@@ -38,8 +38,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
     for (int i = 0; i < 6; i++) {
         UIView *face = [[UIView alloc] initWithFrame:CGRectMake(80, 200, 160, 160)];
         CGFloat red = arc4random() % 256 / 255.f;

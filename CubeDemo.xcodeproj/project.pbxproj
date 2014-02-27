@@ -19,6 +19,7 @@
 		D9E0EE7C18BF11D700906091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E0EE6418BF11D700906091 /* UIKit.framework */; };
 		D9E0EE8418BF11D700906091 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E0EE8218BF11D700906091 /* InfoPlist.strings */; };
 		D9E0EE8618BF11D700906091 /* CubeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E0EE8518BF11D700906091 /* CubeDemoTests.m */; };
+		D9E0EE9118BF11E800906091 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E0EE9018BF11E800906091 /* CDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D9E0EE8118BF11D700906091 /* CubeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubeDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D9E0EE8318BF11D700906091 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9E0EE8518BF11D700906091 /* CubeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDemoTests.m; sourceTree = "<group>"; };
+		D9E0EE8F18BF11E800906091 /* CDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
+		D9E0EE9018BF11E800906091 /* CDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				D9E0EE7018BF11D700906091 /* CDAppDelegate.m */,
 				D9E0EE7218BF11D700906091 /* Images.xcassets */,
 				D9E0EE6718BF11D700906091 /* Supporting Files */,
+				D9E0EE8F18BF11E800906091 /* CDViewController.h */,
+				D9E0EE9018BF11E800906091 /* CDViewController.m */,
 			);
 			path = CubeDemo;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				D9E0EE6D18BF11D700906091 /* main.m in Sources */,
 				D9E0EE7118BF11D700906091 /* CDAppDelegate.m in Sources */,
+				D9E0EE9118BF11E800906091 /* CDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
